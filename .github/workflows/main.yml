@@ -11,7 +11,12 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
 
       - name: Set up Python
         uses: actions/setup-python@v3
@@ -27,4 +32,4 @@ jobs:
       - name: Run Flask App
         run: |
           source venv/bin/activate
-          python cd app.py  
+          python3 app.py  
