@@ -1,4 +1,4 @@
-# FreightForce
+# TartanHacks-FreightForce
 
 ## Steps to run app locally:
 1. Set up virtual environment: `source venv/bin/activate`
