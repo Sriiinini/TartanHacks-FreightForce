@@ -27,4 +27,4 @@ jobs:
       - name: Run Flask App
         run: |
           source venv/bin/activate
-          python cd ../app.py  
+          python cd app.py  
